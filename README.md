@@ -1,0 +1,2 @@
+# Digital-Twin-of-a-Rotating-Shaft-for-Predictive-Maintenance-using-MATLAB-Simulink-and-Simscape
+This project supports the growing demand for Industry 4.0 predictive maintenance systems by integrating virtual models with AI-based analytics. It benefits production engineers by enabling earlier fault detection, reducing unplanned downtime, and optimizing maintenance schedules — all without the need for physical testing.
