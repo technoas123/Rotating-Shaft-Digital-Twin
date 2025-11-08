@@ -1,0 +1,27 @@
+# Ignore data folder
+data/
+Data/
+DATA/
+
+# Ignore common large or generated files
+*.mat
+*.log
+*.tmp
+*.bak
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
+*.mp4
+*.mkv
+*.iso
+
+# Ignore system and local environment files
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+.vscode/
+.env
+*.mlx
