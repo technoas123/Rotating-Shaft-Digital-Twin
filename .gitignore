@@ -1,13 +1,13 @@
-# Ignore data folder
-data/
-Data/
-DATA/
+# Ignore data folder contents BUT allow the folder structure
+data/*
+!data/models/
+!data/models/.gitkeep
 
-# ML Models directory - keep structure but ignore contents
-data/models/
-Data/models/
-DATA/models/
-# Specific model files
+# Specifically ignore model files in models directory
+data/models/*
+!data/models/.gitkeep
+
+# Specific model file extensions to ignore
 *.h5
 *.hdf5
 *.pkl
@@ -17,19 +17,12 @@ DATA/models/
 *.model
 *.joblib
 *.onnx
-# TensorFlow/Keras specific
 *.ckpt*
-checkpoint/
 *.index
 *.meta
 *.data-*
-# PyTorch specific
-*.pth
-*.pt
-*.bin
-*.safetensors
 
-# Ignore common large or generated files
+# Common large or generated files
 *.mat
 *.log
 *.tmp
@@ -43,7 +36,7 @@ checkpoint/
 *.mkv
 *.iso
 
-# Ignore system and local environment files
+# System and local environment files
 .DS_Store
 Thumbs.db
 *.pyc
@@ -51,6 +44,3 @@ __pycache__/
 .vscode/
 .env
 *.mlx
-
-# Keep the models directory structure
-!data/models/.gitkeep
