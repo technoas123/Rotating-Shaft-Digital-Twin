@@ -1,3 +1,0 @@
-Condition,RMS,PeakFreq_Hz,Prediction,Confidence,TrueLabel
-Healthy,4.45304338324981,31.7936412717456,Healthy,0,Healthy
-Faulty,13.8801305449158,20.1959608078384,Faulty,1,Faulty
