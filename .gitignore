@@ -51,3 +51,6 @@ __pycache__/
 .vscode/
 .env
 *.mlx
+
+# Keep the models directory structure
+!data/models/.gitkeep
