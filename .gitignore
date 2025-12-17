@@ -3,6 +3,32 @@ data/
 Data/
 DATA/
 
+# ML Models directory - keep structure but ignore contents
+data/models/
+Data/models/
+DATA/models/
+# Specific model files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.model
+*.joblib
+*.onnx
+# TensorFlow/Keras specific
+*.ckpt*
+checkpoint/
+*.index
+*.meta
+*.data-*
+# PyTorch specific
+*.pth
+*.pt
+*.bin
+*.safetensors
+
 # Ignore common large or generated files
 *.mat
 *.log
