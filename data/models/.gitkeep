@@ -1,0 +1,7 @@
+# On Windows in PowerShell:
+New-Item -Path "data\models\.gitkeep" -ItemType File
+
+# Or create it manually:
+# 1. Open data/models/ folder
+# 2. Create a new text file named ".gitkeep"
+# 3. Leave it empty
